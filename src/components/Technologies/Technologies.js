@@ -1,5 +1,5 @@
 import React from "react";
-import { DiFirebase, DiJavascript, DiReact, DiWordpress, DiZend } from "react-icons/di";
+import { DiFirebase, DiGit, DiJavascript, DiReact, DiResponsive, DiWordpress, DiZend } from "react-icons/di";
 import {
   Section,
   SectionDivider,
@@ -47,8 +47,8 @@ const Technologies = () => (
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
             Experience with <br/>
-            Node.js, Python Flask <br/>
-            Databases
+            Node.js, Python Flask, <br/>
+            PostgreSQL, MySQL, Firebase
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -74,6 +74,29 @@ const Technologies = () => (
           </ListParagraph>
         </ListContainer>
       </ListItem>
+
+      <ListItem>
+        <DiResponsive size="3rem" />
+        <ListContainer>
+          <ListTitle>QA/Testing</ListTitle>
+          <ListParagraph>
+            Experience with <br/>
+            Postman, Responsively, Jest, GTmetrix.
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+
+      <ListItem>
+        <DiGit size="3rem" />
+        <ListContainer>
+          <ListTitle>Team Collaboration</ListTitle>
+          <ListParagraph>
+            Experience with <br/>
+            Microsoft Teams, Slack, Github, Gitlab, GoogleMeet, Zoom
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+
 
 
 
