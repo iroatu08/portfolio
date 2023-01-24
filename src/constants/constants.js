@@ -49,6 +49,16 @@ export const projects = [
     visit: "https://metaverse-next.netlify.app/",
     id: 4,
   },
+  {
+    title: "Youtube Clone",
+    description:
+      "A Modern Youtube Clone web app that enables you to get feeds of videos based on category, search for favorite videos and as well view video related to a channel.",
+    image: "/images/youtube-clone.png",
+    tags: ["Html", "Css", "React.js", "Material UI", "RapidApi"],
+    source: "https://github.com/iroatu08/youtube-clone",
+    visit: "https://youtube-clone7.netlify.app/",
+    id: 5,
+  },
 ];
 
 export const TimeLineData = [
