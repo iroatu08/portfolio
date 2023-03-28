@@ -1,4 +1,26 @@
 export const projects = [
+
+  {
+    title: "Temmie Designs",
+    description:
+      "A Graphic designer Brand website Portfolio.",
+    image: "/images/temi.png",
+    tags: ["Html", "Css", "React.js", "Tailwind Css"],
+    source: "Private-Repo",
+    visit: "https://temi-portfolio.netlify.app/",
+    id: 0,
+  },
+  {
+    title: "NayaFinance",
+    description:
+      "Offical website design for NayaFinanace innovation company.",
+    image: "/images/nayafinance.png",
+    tags: ["Html", "Css", "React.js", "Tailwind Css",],
+    source: "Private-Repo",
+    visit: "https://nayafinance.netlify.app/",
+    id: 1,
+  },
+
   {
     title: "Learning Resources",
     description:
@@ -7,7 +29,7 @@ export const projects = [
     tags: ["Html", "Css", "Javascript", "Vue.js"],
     source: "https://github.com/iroatu08/Learning-resources-app",
     visit: "https://learning-resources-app001.netlify.app/",
-    id: 0,
+    id: 2,
   },
   {
     title: "Monster Slayer App",
@@ -17,7 +39,7 @@ export const projects = [
     tags: ["Html", "Css", "Javascript", "Vue.js"],
     source: "https://github.com/iroatu08/vue-monster-slayer",
     visit: "https://monster-kill.netlify.app/",
-    id: 1,
+    id: 3,
   },
   {
     title: "Wiifarm Cooperative",
@@ -27,7 +49,7 @@ export const projects = [
     tags: ["Html", "Css", "Wordpress"],
     source: "https://wiifarmcoop.com/",
     visit: "https://wiifarmcoop.com/",
-    id: 2,
+    id: 4,
   },
   {
     title: "Lyft Clone",
@@ -37,7 +59,7 @@ export const projects = [
     tags: ["Html", "Css", "Tailwind.css"],
     source: "https://github.com/iroatu08/Lyftclone",
     visit: "https://https://lyfy-clone.netlify.app/.com",
-    id: 3,
+    id: 5,
   },
   {
     title: "Metaverse Ui",
@@ -47,7 +69,7 @@ export const projects = [
     tags: ["Html", "Css", "Tailwind.css", "Next.js", "FramerMotion.js"],
     source: "https://github.com/iroatu08/modern-nextjs-website",
     visit: "https://metaverse-next.netlify.app/",
-    id: 4,
+    id: 6,
   },
   {
     title: "Youtube Clone",
@@ -57,8 +79,10 @@ export const projects = [
     tags: ["Html", "Css", "React.js", "Material UI", "RapidApi"],
     source: "https://github.com/iroatu08/youtube-clone",
     visit: "https://youtube-clone7.netlify.app/",
-    id: 5,
+    id: 7,
   },
+
+ 
 ];
 
 export const TimeLineData = [
