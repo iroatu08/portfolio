@@ -17,7 +17,7 @@ export const projects = [
     image: "/images/nayafinance.png",
     tags: ["Html", "Css", "React.js", "Tailwind Css",],
     source: "Private-Repo",
-    visit: "https://nayafinance.netlify.app/",
+    visit: "https://nayafinance.com/",
     id: 1,
   },
 
