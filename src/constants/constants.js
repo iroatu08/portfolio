@@ -1,14 +1,23 @@
 export const projects = [
-
+  {
+    title: "Agrolearn",
+    description:
+      "An Elearning Platform that is equipping the next generation of Agrarian leaders in Africa through online learning.",
+    image: "/images/agrolearn.png",
+    tags: ["Html", "Css", "React.js", "Tailwind Css"],
+    source: "#.",
+    visit: "https://agrolearn.org/",
+    id: 0,
+  },
   {
     title: "Temmie Designs",
     description:
       "A Graphic designer Brand website Portfolio.",
     image: "/images/temi.png",
     tags: ["Html", "Css", "React.js", "Tailwind Css"],
-    source: "Private-Repo",
+    source: "#.",
     visit: "https://temi-portfolio.netlify.app/",
-    id: 0,
+    id: 1,
   },
   {
     title: "NayaFinance",
@@ -16,9 +25,19 @@ export const projects = [
       "Offical website design for NayaFinanace innovation company.",
     image: "/images/nayafinance.png",
     tags: ["Html", "Css", "React.js", "Tailwind Css",],
-    source: "Private-Repo",
+    source: "#.",
     visit: "https://nayafinance.com/",
-    id: 1,
+    id: 2,
+  },
+  {
+    title: "Symergy Pools",
+    description:
+      "Symergy Pools is a trusted provider of quality pool services in the Greater Toronto Area.",
+    image: "/images/symergy.png",
+    tags: ["Html", "Css", "Wordpress"],
+    source: "#.",
+    visit: "https://symergypools.ca/",
+    id: 3,
   },
 
   {
@@ -29,7 +48,7 @@ export const projects = [
     tags: ["Html", "Css", "Javascript", "Vue.js"],
     source: "https://github.com/iroatu08/Learning-resources-app",
     visit: "https://learning-resources-app001.netlify.app/",
-    id: 2,
+    id: 4,
   },
   {
     title: "Monster Slayer App",
@@ -39,7 +58,7 @@ export const projects = [
     tags: ["Html", "Css", "Javascript", "Vue.js"],
     source: "https://github.com/iroatu08/vue-monster-slayer",
     visit: "https://monster-kill.netlify.app/",
-    id: 3,
+    id: 5,
   },
   {
     title: "Wiifarm Cooperative",
@@ -49,7 +68,7 @@ export const projects = [
     tags: ["Html", "Css", "Wordpress"],
     source: "https://wiifarmcoop.com/",
     visit: "https://wiifarmcoop.com/",
-    id: 4,
+    id: 6,
   },
   {
     title: "Lyft Clone",
@@ -59,7 +78,7 @@ export const projects = [
     tags: ["Html", "Css", "Tailwind.css"],
     source: "https://github.com/iroatu08/Lyftclone",
     visit: "https://https://lyfy-clone.netlify.app/.com",
-    id: 5,
+    id: 7,
   },
   {
     title: "Metaverse Ui",
@@ -69,7 +88,7 @@ export const projects = [
     tags: ["Html", "Css", "Tailwind.css", "Next.js", "FramerMotion.js"],
     source: "https://github.com/iroatu08/modern-nextjs-website",
     visit: "https://metaverse-next.netlify.app/",
-    id: 6,
+    id: 8,
   },
   {
     title: "Youtube Clone",
@@ -79,7 +98,7 @@ export const projects = [
     tags: ["Html", "Css", "React.js", "Material UI", "RapidApi"],
     source: "https://github.com/iroatu08/youtube-clone",
     visit: "https://youtube-clone7.netlify.app/",
-    id: 7,
+    id: 9,
   },
 
  
