@@ -10,6 +10,16 @@ export const projects = [
     id: 0,
   },
   {
+    title: "Wiifarmvest",
+    description:
+      "WiiFarmVest® is a fractional farmland ownership platform established to promote the development of commercial farm projects across various agricultural sectors in Nigeria.",
+    image: "/images/wiifarmvest.png",
+    tags: ["Html", "Css", "Vuejs", "Tailwind Css"],
+    source: "#.",
+    visit: "https://wiifarm.netlify.app/",
+    id: 1,
+  },
+  {
     title: "Temmie Designs",
     description:
       "A Graphic designer Brand website Portfolio.",
@@ -17,7 +27,7 @@ export const projects = [
     tags: ["Html", "Css", "React.js", "Tailwind Css"],
     source: "#.",
     visit: "https://temi-portfolio.netlify.app/",
-    id: 1,
+    id: 2,
   },
   {
     title: "NayaFinance",
@@ -27,7 +37,7 @@ export const projects = [
     tags: ["Html", "Css", "React.js", "Tailwind Css",],
     source: "#.",
     visit: "https://nayafinance.com/",
-    id: 2,
+    id: 3,
   },
   {
     title: "Symergy Pools",
@@ -37,7 +47,7 @@ export const projects = [
     tags: ["Html", "Css", "Wordpress"],
     source: "#.",
     visit: "https://symergypools.ca/",
-    id: 3,
+    id: 4,
   },
 
   {
@@ -48,7 +58,7 @@ export const projects = [
     tags: ["Html", "Css", "Javascript", "Vue.js"],
     source: "https://github.com/iroatu08/Learning-resources-app",
     visit: "https://learning-resources-app001.netlify.app/",
-    id: 4,
+    id: 5,
   },
   {
     title: "Monster Slayer App",
@@ -58,7 +68,7 @@ export const projects = [
     tags: ["Html", "Css", "Javascript", "Vue.js"],
     source: "https://github.com/iroatu08/vue-monster-slayer",
     visit: "https://monster-kill.netlify.app/",
-    id: 5,
+    id: 6,
   },
   {
     title: "Wiifarm Cooperative",
@@ -68,7 +78,7 @@ export const projects = [
     tags: ["Html", "Css", "Wordpress"],
     source: "https://wiifarmcoop.com/",
     visit: "https://wiifarmcoop.com/",
-    id: 6,
+    id: 7,
   },
   {
     title: "Lyft Clone",
@@ -78,7 +88,7 @@ export const projects = [
     tags: ["Html", "Css", "Tailwind.css"],
     source: "https://github.com/iroatu08/Lyftclone",
     visit: "https://https://lyfy-clone.netlify.app/.com",
-    id: 7,
+    id: 8,
   },
   {
     title: "Metaverse Ui",
@@ -88,7 +98,7 @@ export const projects = [
     tags: ["Html", "Css", "Tailwind.css", "Next.js", "FramerMotion.js"],
     source: "https://github.com/iroatu08/modern-nextjs-website",
     visit: "https://metaverse-next.netlify.app/",
-    id: 8,
+    id: 9,
   },
   {
     title: "Youtube Clone",
@@ -98,7 +108,7 @@ export const projects = [
     tags: ["Html", "Css", "React.js", "Material UI", "RapidApi"],
     source: "https://github.com/iroatu08/youtube-clone",
     visit: "https://youtube-clone7.netlify.app/",
-    id: 9,
+    id: 10,
   },
 
  

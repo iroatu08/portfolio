@@ -29,7 +29,13 @@ const ShowLink = (i) => {
   }
   if (i == 2) {
     return "hidden";
-  } else {
+  }
+  if (i == 3) {
+    return "hidden";
+  } 
+  if (i == 4) {
+    return "hidden";
+  }else {
     return "";
   }
 };
