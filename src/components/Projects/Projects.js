@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState, useMemo} from "react";
 
 import {
   BlogCard,
@@ -19,6 +19,9 @@ import {
   SectionTitle,
 } from "../../styles/GlobalComponents";
 import { projects } from "../../constants/constants";
+import Pagination from "../../constants/pagination";
+
+
 
 const ShowLink = (i) => {
   if (i == 0) {
@@ -40,12 +43,26 @@ const ShowLink = (i) => {
   }
 };
 
-const Projects = () => (
+
+let PageSize = 4;
+
+
+const Projects = () => {
+
+  const [currentPage, setCurrentPage] = useState(1)
+
+  const currentProjectPage = useMemo(() => {
+    const firstPageIndex = (currentPage - 1) * PageSize;
+    const lastPageIndex = firstPageIndex + PageSize;
+    return projects.slice(firstPageIndex, lastPageIndex);
+  }, [currentPage])
+  
+  return(
   <Section nopadding id="projects">
     <SectionDivider />
     <SectionTitle main>Projects</SectionTitle>
     <GridContainer>
-      {projects.map(
+      {currentProjectPage.map(
         ({ id, image, title, description, tags, source, visit }, i) => (
           <BlogCard key={id}>
             <Img src={image} />
@@ -65,16 +82,30 @@ const Projects = () => (
             </div>
 
             <UtilityList>
-              <ExternalLinks href={source} className={ShowLink(i)}>
+              <ExternalLinks href={source} target="_blank" className={ShowLink(i)}>
                 Code
               </ExternalLinks>
-              <ExternalLinks href={visit}>Visit</ExternalLinks>
+              <ExternalLinks href={visit} target="_blank">Visit</ExternalLinks>
             </UtilityList>
           </BlogCard>
         )
       )}
     </GridContainer>
+
+   
+    <Pagination
+        className="pagination-bar"
+        currentPage={currentPage}
+        totalCount={projects.length}
+        pageSize={PageSize}
+        onPageChange={page => setCurrentPage(page)}
+      />
   </Section>
-);
+
+  
+
+  
+  )
+};
 
 export default Projects;

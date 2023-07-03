@@ -87,7 +87,7 @@ export const projects = [
     image: "/images/lyft.png",
     tags: ["Html", "Css", "Tailwind.css"],
     source: "https://github.com/iroatu08/Lyftclone",
-    visit: "https://https://lyfy-clone.netlify.app/.com",
+    visit: "https://lyfy-clone.netlify.app/",
     id: 8,
   },
   {

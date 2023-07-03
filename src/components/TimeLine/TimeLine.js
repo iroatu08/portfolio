@@ -63,10 +63,10 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        I am always looking to expand my skills and stay up-to-date with the
-        latest technologies and trends in web development. In my free time, I
-        enjoy experimenting with new technologies and taking on personal
-        projects.
+        I'm dedicated to constantly expanding my skills and staying updated
+        with the latest web development technologies and trends. In my free
+        time, I enjoy experimenting with new tech and personal projects, as well
+        as playing video games for relaxation and inspiration.
       </SectionText>
 
       {/* <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
@@ -144,7 +144,6 @@ const Timeline = () => {
       </CarouselButtons> */}
 
       <SectionDivider />
-
     </Section>
   );
 };

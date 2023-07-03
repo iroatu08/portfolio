@@ -32,7 +32,7 @@ const Footer = () => {
 
     <SocialIconsContainer>
       <CompanyContainer>
-        <Slogan>Creating something iconic...</Slogan>
+        <Slogan>"Simplicity is the ultimate sophistication." - Leonardo da Vinci</Slogan>
       </CompanyContainer>
 
       <SocialContainer>
