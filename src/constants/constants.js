@@ -1,5 +1,15 @@
 export const projects = [
   {
+    title: "Easemess",
+    description:
+      "Easemess is an online sms ans email platform, that allows companies to send predefined email and sms to users on special occasions such as birthday, etc.",
+    image: "/images/easemess.png",
+    tags: ["Html", "Css", "VueJs", "Tailwind Css, Laravel, MySql"],
+    source: "#.",
+    visit: "https://easemess.com/",
+    id: 0,
+  },
+  {
     title: "Agrolearn",
     description:
       "An Elearning Platform that is equipping the next generation of Agrarian leaders in Africa through online learning.",
@@ -7,7 +17,7 @@ export const projects = [
     tags: ["Html", "Css", "React.js", "Tailwind Css"],
     source: "#.",
     visit: "https://agrolearn.org/",
-    id: 0,
+    id: 1,
   },
   {
     title: "Wiifarmvest",
@@ -17,8 +27,19 @@ export const projects = [
     tags: ["Html", "Css", "Vuejs", "Tailwind Css"],
     source: "#.",
     visit: "https://wiifarm.netlify.app/",
-    id: 1,
+    id: 2,
   },
+  {
+    title: "Bashplugent",
+    description:
+      "BashPlug Entertainments is a dynamic and visionary talent management and PR services company.",
+    image: "/images/bashent.png",
+    tags: ["Html", "Css", "ReactJs", "Tailwind Css, Framer Motion"],
+    source: "#.",
+    visit: "https://bashplugent.com/",
+    id: 3,
+  },
+
   {
     title: "Temmie Designs",
     description:
@@ -27,7 +48,7 @@ export const projects = [
     tags: ["Html", "Css", "React.js", "Tailwind Css"],
     source: "#.",
     visit: "https://temi-portfolio.netlify.app/",
-    id: 2,
+    id: 4,
   },
   {
     title: "NayaFinance",
@@ -37,7 +58,7 @@ export const projects = [
     tags: ["Html", "Css", "React.js", "Tailwind Css",],
     source: "#.",
     visit: "https://nayafinance.com/",
-    id: 3,
+    id: 5,
   },
   {
     title: "Symergy Pools",
@@ -47,7 +68,7 @@ export const projects = [
     tags: ["Html", "Css", "Wordpress"],
     source: "#.",
     visit: "https://symergypools.ca/",
-    id: 4,
+    id: 6,
   },
 
   {
@@ -58,7 +79,7 @@ export const projects = [
     tags: ["Html", "Css", "Javascript", "Vue.js"],
     source: "https://github.com/iroatu08/Learning-resources-app",
     visit: "https://learning-resources-app001.netlify.app/",
-    id: 5,
+    id: 7,
   },
   {
     title: "Monster Slayer App",
@@ -68,7 +89,7 @@ export const projects = [
     tags: ["Html", "Css", "Javascript", "Vue.js"],
     source: "https://github.com/iroatu08/vue-monster-slayer",
     visit: "https://monster-kill.netlify.app/",
-    id: 6,
+    id: 8,
   },
   {
     title: "Wiifarm Cooperative",
@@ -78,7 +99,7 @@ export const projects = [
     tags: ["Html", "Css", "Wordpress"],
     source: "https://wiifarmcoop.com/",
     visit: "https://wiifarmcoop.com/",
-    id: 7,
+    id: 9,
   },
   {
     title: "Lyft Clone",
@@ -88,7 +109,7 @@ export const projects = [
     tags: ["Html", "Css", "Tailwind.css"],
     source: "https://github.com/iroatu08/Lyftclone",
     visit: "https://lyfy-clone.netlify.app/",
-    id: 8,
+    id: 10,
   },
   {
     title: "Metaverse Ui",
@@ -98,7 +119,7 @@ export const projects = [
     tags: ["Html", "Css", "Tailwind.css", "Next.js", "FramerMotion.js"],
     source: "https://github.com/iroatu08/modern-nextjs-website",
     visit: "https://metaverse-next.netlify.app/",
-    id: 9,
+    id: 11,
   },
   {
     title: "Youtube Clone",
@@ -108,7 +129,7 @@ export const projects = [
     tags: ["Html", "Css", "React.js", "Material UI", "RapidApi"],
     source: "https://github.com/iroatu08/youtube-clone",
     visit: "https://youtube-clone7.netlify.app/",
-    id: 10,
+    id: 12,
   },
 
  

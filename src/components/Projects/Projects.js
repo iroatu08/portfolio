@@ -23,23 +23,33 @@ import Pagination from "../../constants/pagination";
 
 
 
-const ShowLink = (i) => {
-  if (i == 0) {
+const ShowLink = (id) => {
+  if (id === 0) {
     return "hidden";
   }
-  if (i == 1) {
+  if (id === 1) {
     return "hidden";
   }
-  if (i == 2) {
+  if (id === 2) {
     return "hidden";
   }
-  if (i == 3) {
+  if (id === 3) {
     return "hidden";
   } 
-  if (i == 4) {
+  if (id === 4) {
     return "hidden";
-  }else {
-    return "";
+  }
+    if (id == 5 ) {
+    return "hidden";
+  }
+    if (id == 6 ) {
+    return "hidden";
+  }
+  if (id === 9) {
+    return "hidden";
+  }
+  else {
+    return "block";
   }
 };
 
@@ -62,8 +72,7 @@ const Projects = () => {
     <SectionDivider />
     <SectionTitle main>Projects</SectionTitle>
     <GridContainer>
-      {currentProjectPage.map(
-        ({ id, image, title, description, tags, source, visit }, i) => (
+      {currentProjectPage.map(({ id, image, title, description, tags, source, visit }, i) => (
           <BlogCard key={id}>
             <Img src={image} />
             <TitleContent>
@@ -82,7 +91,7 @@ const Projects = () => {
             </div>
 
             <UtilityList>
-              <ExternalLinks href={source} target="_blank" className={ShowLink(i)}>
+              <ExternalLinks href={source} target="_blank" className={ShowLink(id)}>
                 Code
               </ExternalLinks>
               <ExternalLinks href={visit} target="_blank">Visit</ExternalLinks>
