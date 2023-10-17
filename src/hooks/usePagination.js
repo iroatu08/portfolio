@@ -1,4 +1,4 @@
-import { useMemo } from 'react';
+import { useMemo, useEffect } from 'react';
 
 export const usePagination = ({
     totalCount,
@@ -9,6 +9,14 @@ export const usePagination = ({
     const range = (start, end) => {
       return Array.from({ length: end - start + 1 }, (_, i) => start + i);
     };
+
+    useEffect(() => {
+      window.scrollTo({
+        top: 600,
+        left: 100,
+        behavior: "smooth",
+      });
+    },[currentPage])
   
     const paginationRange = useMemo(() => {
        // Our implementation logic will go here 
